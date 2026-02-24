@@ -1,7 +1,7 @@
 package com.davi.saas.agendamento.infra.security;
 
 
-import com.davi.saas.agendamento.auth.UserRepository;
+import com.davi.saas.agendamento.user.repository.UserRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

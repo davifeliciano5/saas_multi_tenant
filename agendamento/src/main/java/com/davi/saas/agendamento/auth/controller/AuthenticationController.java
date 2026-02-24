@@ -1,9 +1,12 @@
-package com.davi.saas.agendamento.infra.security;
+package com.davi.saas.agendamento.auth.controller;
 
 
-import com.davi.saas.agendamento.auth.LoginResponseDTO;
-import com.davi.saas.agendamento.auth.User;
-import com.davi.saas.agendamento.auth.UserRepository;
+import com.davi.saas.agendamento.auth.dto.LoginResponseDTO;
+import com.davi.saas.agendamento.user.entity.User;
+import com.davi.saas.agendamento.user.repository.UserRepository;
+import com.davi.saas.agendamento.auth.dto.AuthenticationDTO;
+import com.davi.saas.agendamento.auth.dto.RegisterDTO;
+import com.davi.saas.agendamento.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

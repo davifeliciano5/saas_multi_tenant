@@ -1,6 +1,7 @@
-package com.davi.saas.agendamento.auth;
+package com.davi.saas.agendamento.user.entity;
 
 
+import com.davi.saas.agendamento.user.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;

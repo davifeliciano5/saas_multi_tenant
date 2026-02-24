@@ -1,6 +1,7 @@
-package com.davi.saas.agendamento.auth;
+package com.davi.saas.agendamento.auth.service;
 
 
+import com.davi.saas.agendamento.user.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

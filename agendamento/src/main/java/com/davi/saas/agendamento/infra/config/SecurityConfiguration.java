@@ -1,6 +1,7 @@
-package com.davi.saas.agendamento.infra.security;
+package com.davi.saas.agendamento.infra.config;
 
 
+import com.davi.saas.agendamento.infra.security.SecurityFilterJTW;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

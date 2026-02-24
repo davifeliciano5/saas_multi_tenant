@@ -1,4 +1,4 @@
-package com.davi.saas.agendamento.auth;
+package com.davi.saas.agendamento.user.enums;
 
 public enum UserRole {
     ADMIN("admin"),
